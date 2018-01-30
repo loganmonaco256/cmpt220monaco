@@ -13,7 +13,7 @@ public class AverageAcceleration {
 		double time = input.nextDouble();
 		
 		//calculate average acceleration
-		double avgAccel = (initialV - endV) / time;
+		double avgAccel = (endV - initialV) / time; // JA
 		
 		//display result to 2 decimals
 		System.out.println("The average acceleration is: " + (int)(avgAccel * 100) / 100.0);
