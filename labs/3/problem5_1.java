@@ -7,7 +7,7 @@ public class problem5_1 {
 		int positives = 0; 	
 		int negatives = 0; 	
 		int count = 0;			
-		long total = 0;		
+		double total = 0;	// JA	
 
 		System.out.print("Enter an integer, the input ends if it is 0: ");
 		int usernum = input.nextInt();
@@ -27,7 +27,7 @@ public class problem5_1 {
 			usernum = input.nextInt();
 		}
 
-		long average = total / count;
+		double average = total / count; // JA
 
 		System.out.print(
 			"The number of positive is " + positives + 
