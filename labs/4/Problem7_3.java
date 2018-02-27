@@ -17,14 +17,15 @@ public class Problem7_3 {
 		}
 	}
 	
-		public static void countmethod(int[] repcount){
-			Scanner input = new Scanner(System.in);
-			int usernum; 
-			usernum = input.nextInt();
-			while(usernum != 0) {
+	public static void countmethod(int[] repcount){
+		Scanner input = new Scanner(System.in);
+		int usernum; 
+		usernum = input.nextInt();
+		while(usernum != 0) {
 			if (usernum >= 1 && usernum <= 100)	{
-					repcount[usernum - 1]++;
+				repcount[usernum - 1]++;
 			}
+			usernum = input.nextInt(); // JA: You need this to exit the loop
 		}
 	}
 }

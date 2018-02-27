@@ -16,11 +16,12 @@ public class Problem7_9 {
 	//calculate the minimum value of an array
 		public static double min(double[] array) {
 			double minimum = array[0];
-			for(double i = 0; i < array.length - 1; i++);
-			if (array[i] < minimum) {
-				minimum = array[i];
-				return minimum;
-			}
+			for(int i = 0; i < array.length - 1; i++) //; JA: Be careful with this
+				if (array[i] < minimum) {
+					minimum = array[i];
+					return minimum;
+				}
+			return minimum;
 		}
 
 	}

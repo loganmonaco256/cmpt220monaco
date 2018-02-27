@@ -7,7 +7,7 @@ public class problem8_11 {
 		  Scanner input = new Scanner(System.in);
 		  int number = input.nextInt();
 	      char[][] matrix = makeMatrix(number);
-	      System.out.print(matrix);
+	      System.out.print(matrix); // You have to print all the elements
 	}
 	//place H and T in the matrix
 			public static char[][] makeMatrix(int number) {
