@@ -1,4 +1,4 @@
-package lab6;
+//package lab6;
 
 	public class Location {
 		// the data fields row, column and maxValue

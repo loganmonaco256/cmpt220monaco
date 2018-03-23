@@ -1,4 +1,4 @@
-package lab6;
+//package lab6;
 
 public class testcaseproblem9_1 {
 	
