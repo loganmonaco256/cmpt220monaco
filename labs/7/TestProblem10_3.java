@@ -1,4 +1,4 @@
-package lab7;
+//package lab7;
 
 public class TestProblem10_3 {
 	public static void main(String[] args) {
