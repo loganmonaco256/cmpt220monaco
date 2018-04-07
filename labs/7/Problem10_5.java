@@ -1,5 +1,6 @@
-package lab7;
+//package lab7;
 
+// JA: Where is StackOfIntegers defined?
 import java.util.Scanner;
 
 public class Problem10_5 {
