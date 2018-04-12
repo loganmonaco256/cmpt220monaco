@@ -31,6 +31,8 @@ public class Problem12_11 {
             e.printStackTrace();
         }
         stringToDelete = stringToDelete.replaceAll(args[0], " ");
+		
+		// JA: What about writting out?
         
     }
 }
