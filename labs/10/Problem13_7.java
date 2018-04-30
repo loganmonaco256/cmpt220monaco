@@ -7,7 +7,8 @@ public class Problem13_7 {
 		for (int i = 0; i < arrayOfSquares.length; i++) {
 			System.out.println("Square number : " + (i + 1));
 		 	System.out.println("Its area is : " + arrayOfSquares[i].getArea());
-		 	System.out.println("Can be colored by doing this : " + ((Square)arrayOfSquares[i]).howToColor());
+		 	System.out.print("Can be colored by doing this : ");
+			((Square)arrayOfSquares[i]).howToColor();
 		 } 
 	}
 }
